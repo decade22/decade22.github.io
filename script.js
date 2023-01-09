@@ -8,7 +8,7 @@ let links = document.getElementsByTagName("a");
 let frames = [
   "./frame/frames.html",
   "./slide/slides.html",
-  "https://codepen.io/cobra_winfrey/debug/OJVJJoj",
+  "./frame/index.html",
   "https://cdpn.io/cobra_winfrey/debug/YzXOBEN",
   "https://codepen.io/cobra_winfrey/debug/qBZWVmO",
   "https://codepen.io/cobra_winfrey/debug/eYOXOdB",

@@ -1529,7 +1529,7 @@ body #wrap .panel .thumb img.shift {
   left: 0;
 }
 
-body #wrap .panel .thumb img.light {
+/* body #wrap .panel .thumb img.light {
   filter: saturate(0) blur(calc(50px - (var(--progress) * 125px)))
     brightness(0.75) contrast(4);
 }
@@ -1537,4 +1537,4 @@ body #wrap .panel .thumb img.light {
 body #wrap .panel .thumb img.lighter {
   filter: saturate(0) blur(calc(50px - (var(--progress) * 125px))) brightness(1)
     contrast(4);
-}
+} */

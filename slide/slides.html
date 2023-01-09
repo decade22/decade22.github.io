@@ -3,28 +3,90 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slides of Decade</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Decade - Custom Dresscode</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
-    <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
-        <img class="image" src="./img/IMG-20221031-WA0032.jpg" draggable="false" />
-        <img class="image" src="./img/IMG-20221130-WA0072.jpg" draggable="false" />
-        <img class="image" src="./img/IMG_5694.jpg" draggable="false" />
-        <img class="image" src="./img/IMG_5695.jpg" draggable="false" />
-        <img class="image" src="./img/IMG_5717.jpg" draggable="false" />
-        <img class="image" src="./img/IMG_5741.jpg" draggable="false" />
-        <img class="image" src="./img/IMG_5748.jpg" draggable="false" />
-        <img class="image" src="./img/IMG-20221130-WA0074.jpg" draggable="false" />
-        <img class="image" src="./img/IMG_5725.jpg" draggable="false" />
-        <img class="image" src="./img/IMG-20221130-WA0075.jpg" draggable="false" />
-        <img class="image" src="./img/IMG-20221130-WA0076.jpg" draggable="false" />
+    <div class="slider | js-drag-area">
+        <div class="slider__inner | js-slider">
+            <div class="slide | js-slide">
+                <div class="slide__inner | js-slide__inner">
+                    <img class="js-slide__img" src="../slide/img/decade (1).jpg" alt=""
+                        crossorigin="anonymous" draggable="false">
+                </div>
+            </div>
+            <div class="slide | js-slide" style="left: 120%;">
+                <div class="slide__inner | js-slide__inner">
+                    <img class="js-slide__img" src="../slide/img/decade (2).jpg" alt=""
+                        crossorigin="anonymous" draggable="false">
+                </div>
+            </div>
+            <div class="slide | js-slide" style="left: 240%;">
+                <div class="slide__inner | js-slide__inner">
+                    <img class="js-slide__img" src="../slide/img/decade (3).jpg" alt=""
+                        crossorigin="anonymous" draggable="false">
+                </div>
+            </div>
+            <div class="slide | js-slide" style="left: 360%;">
+                <div class="slide__inner | js-slide__inner">
+                    <img class="js-slide__img" src="../slide/img/decade (4).jpg" alt=""
+                        crossorigin="anonymous" draggable="false">
+                </div>
+            </div>
+            <div class="slide | js-slide" style="left: 480%;">
+                <div class="slide__inner | js-slide__inner">
+                    <img class="js-slide__img" src="../slide/img/decade (11).jpg" alt=""
+                        crossorigin="anonymous" draggable="false">
+                </div>
+            </div>
+            <div class="slide | js-slide" style="left: 600%;">
+                <div class="slide__inner | js-slide__inner">
+                    <img class="js-slide__img" src="../slide/img/decade (6).jpg" alt=""
+                        crossorigin="anonymous" draggable="false">
+                </div>
+            </div>
+            <div class="slide | js-slide" style="left: 720%;">
+                <div class="slide__inner | js-slide__inner">
+                    <img class="js-slide__img" src="../slide/img/decade (7).jpg" alt=""
+                        crossorigin="anonymous" draggable="false">
+                </div>
+            </div>
+            <div class="slide | js-slide" style="left: 840%;">
+                <div class="slide__inner | js-slide__inner">
+                    <img class="js-slide__img" src="../slide/img/decade (8).jpg" alt=""
+                        crossorigin="anonymous" draggable="false">
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="script.js"></script>
+    <div class="titles">
+        <div class="titles__title titles__title--proxy">Decade Custom Dresscode</div>
+        <div class="titles__list | js-titles">
+            <div class="titles__title | js-title">Decade</div>
+            <div class="titles__title | js-title">Custom</div>
+            <div class="titles__title | js-title">Dresscode</div>
+            <div class="titles__title | js-title">Decade</div>
+            <div class="titles__title | js-title">Custom</div>
+            <div class="titles__title | js-title">Dresscode</div>
+            <div class="titles__title | js-title">Decade</div>
+            <div class="titles__title | js-title">Custom</div>
+            <div class="titles__title | js-title">Dresscode</div>
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress__line | js-progress-line"></div>
+        <div class="progress__line | js-progress-line-2"></div>
+    </div>
+    <!-- partial -->
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js'></script>
+    <script src="./script.js"></script>
+
 </body>
 
 </html>
